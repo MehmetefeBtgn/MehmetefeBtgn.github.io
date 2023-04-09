@@ -1,0 +1,91 @@
+.carousel-button {
+    position: relative;
+    border: none;
+    border-radius: 64px;
+    margin-inline: 4px;
+}
+
+.carousel-image {
+    margin-inline: 0.25rem;
+    border: 1px solid #e1e1e1;
+    border-radius: 30px;
+    aspect-ratio: 1/1;
+}
+
+.carousel-image > .carousel-item-btn > img {
+    padding: 0.5rem;
+}
+
+.carousel-active {
+    border: 1px solid #a7a7a7;
+}
+
+.carousel-inner {
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.carousel-button-left {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-button-right {
+    display: flex;
+    justify-content: center;
+}
+
+.button-ico-right {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    background-image: url("images/next_arrow.svg");
+    width: 48px;
+    height: 48px;
+    background-position: center;
+    background-color: transparent;
+    background-repeat: no-repeat;
+}
+
+.button-ico-left {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    background-image: url("images/previous_arrow.svg");
+    width: 48px;
+    height: 48px;
+    background-position: center;
+    background-color: transparent;
+    background-repeat: no-repeat;
+}
+
+.buttonshadow {
+    box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.6);
+    border-radius: 64px;
+    height: 0px;
+    width: 0px;
+}
+
+.image-main {
+    border: 1px solid #e1e1e1;
+    border-radius: 30px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.carousel-item-btn {
+    border: 0px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.flex-item {
+    padding-inline: 8px;
+    margin-inline: 4px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-bottom: 6px;
+}
